@@ -1,0 +1,70 @@
+# .gitignore
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Переменные окружения
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Логи
+logs/
+*.log
+
+# Тесты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Результаты сборки
+build/
+dist/
+*.egg-info/
+
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.sqlite3
+
+# macOS
+.AppleDouble
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+docker-compose.override.yml
+compose.override.yml
+.DS_Store

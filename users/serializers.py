@@ -7,4 +7,4 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'password', 'telegram_chat_id')
+        fields = ('id', 'email', 'password', 'first_name', 'last_name', 'telegram_chat_id')
